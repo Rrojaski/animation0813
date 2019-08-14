@@ -6,10 +6,12 @@ const CardSide = styled.div`
   top: 0;
   left: 0;
   width: 100%;
+  min-height: 400px;
+
   background-image: ${props => props.backImage};
   color: #fff;
   font-size: 1.5rem;
-  height: 40rem;
+  
   backface-visibility: hidden;
   transition: all 0.8s ease;
   border-radius: 3px;

@@ -1,12 +1,15 @@
 import styled from "styled-components";
 
 const CardHeading = styled.div`
+  box-sizing: border-box;
   position: absolute;
+  top: 12rem;
+  right: 1rem;
+
   font-size: 2rem;
   font-weight: 300;
   text-transform: uppercase;
-  top: 12rem;
-  right: 1rem;
+
   text-align: right;
   width: 75%;
 
